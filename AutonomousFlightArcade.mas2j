@@ -1,0 +1,12 @@
+/* Jason Project
+
+   See Prometheus specification in doc folder
+
+*/
+
+MAS autonomous_flight_arcade {
+    environment: MapEnv(gui) // use "nogui" as parameter to not show the GUI
+    agents: drone1;
+            // drone2;
+            // tablero;
+}
